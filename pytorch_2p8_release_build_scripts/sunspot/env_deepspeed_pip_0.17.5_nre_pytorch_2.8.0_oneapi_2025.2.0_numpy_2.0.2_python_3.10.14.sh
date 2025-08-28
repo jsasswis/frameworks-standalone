@@ -116,7 +116,8 @@ done
 pip install --no-deps --no-cache-dir --force-reinstall $LOCAL_WHEEL_LOC/torch-*.whl
 pip install --no-deps --no-cache-dir --force-reinstall $LOCAL_WHEEL_LOC/intel_extension_for_pytorch-*.whl
 pip install --no-deps --no-cache-dir --force-reinstall $LOCAL_WHEEL_LOC/torchvision-*.whl
-pip install --no-deps --no-cache-dir --force-reinstall $LOCAL_WHEEL_LOC/mpi4py-*.whl
+# pip install --no-deps --no-cache-dir --force-reinstall $LOCAL_WHEEL_LOC/mpi4py-*.whl
+pip install mpi4py==4.1.0
 pip install --no-deps --no-cache-dir --force-reinstall $LOCAL_WHEEL_LOC/h5py-*.whl
 pip install --no-deps --no-cache-dir --force-reinstall $LOCAL_WHEEL_LOC/torchdata-*.whl
 
